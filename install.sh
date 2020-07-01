@@ -190,3 +190,16 @@ echo "done"
 echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 ls -la
 echo "One last time: don't forget to set up AWS credentials in ~/.aws/!"
+
+echo "installing Amass"
+go get -v github.com/OWASP/Amass/v3/...
+echo "done"
+
+echo "installing Arjun"
+git clone https://github.com/s0md3v/Arjun.git
+cd ~/tools/
+echo "done"
+
+echo "installing canshu"
+go get github.com/bugyellow/canshu.git
+echo "done"
