@@ -185,12 +185,6 @@ cat dns-Jhaddix.txt | head -n -14 > clean-jhaddix-dns.txt
 cd ~/tools/
 echo "done"
 
-
-
-echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
-ls -la
-echo "One last time: don't forget to set up AWS credentials in ~/.aws/!"
-
 echo "installing Amass"
 go get -v github.com/OWASP/Amass/v3/...
 echo "done"
@@ -208,3 +202,6 @@ echo "installing ffuf"
 go get github.com/ffuf/ffuf
 echo "done"
 
+echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
+ls -la
+echo "One last time: don't forget to set up AWS credentials in ~/.aws/!"
