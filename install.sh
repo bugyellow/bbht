@@ -203,3 +203,8 @@ echo "done"
 echo "installing canshu"
 go get github.com/bugyellow/canshu.git
 echo "done"
+
+echo "installing ffuf"
+go get github.com/ffuf/ffuf
+echo "done"
+
