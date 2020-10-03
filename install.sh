@@ -194,6 +194,11 @@ git clone https://github.com/s0md3v/Arjun.git
 cd ~/tools/
 echo "done"
 
+echo "installing smuggler"
+git clone https://github.com/defparam/smuggler.git
+cd ~/tools/
+echo "done"
+
 echo "installing canshu"
 go get github.com/bugyellow/canshu.git
 echo "done"
